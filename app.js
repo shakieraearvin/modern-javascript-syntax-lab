@@ -138,4 +138,22 @@ const partsOfSpeech = (noun = 'cat', adjective = 'orange') => {
 console.log(partsOfSpeech('dog', 'black'));
 
 
+//  Exercise 9: Ternary operator
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
+
+// Your code here:
+
+let taste = pizza === 'tasty' ? 'yum' : 'yuck'
+
+console.log(taste);
 
